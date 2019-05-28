@@ -11,8 +11,8 @@ from pptx import Presentation
 def test_create_prezi():
     prezi = pz.create_presentation()
     slide = pz.add_style(prezi)
-    url = 'arabian_sea.jpeg'
-    slide = pz.add_image(pz.add_title(slide, "Gus is here!"), url)
+    image = 'arabian_sea.jpeg'
+    slide = pz.add_image(pz.add_title(slide, "Gus is here!"), image)
     prezi_file_name = 'prezi.pptx'
-    prezi.save(prezi_file_name)
+    pz.save_presentation(prezi, prezi_file_name)
     assert os.path.isfile(prezi_file_name) 
