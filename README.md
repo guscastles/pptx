@@ -8,6 +8,11 @@ Sample application to showcase manipulation of PowerPoint presentations
 
 Check in folder `prezi/` for script `prezi.py`
 
+To run the script execute
+```
+python -m prezi.prezi
+```
+
 ## External Modules
 Modules used in this project
 > pandas  
