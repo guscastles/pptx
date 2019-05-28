@@ -15,8 +15,8 @@ python -m prezi.prezi
 
 ## External Modules
 Modules used in this project
-> pandas  
-  pytest  
+> pytest  
+  pytext-cov  
   python-ppx
   
 ## Tests
