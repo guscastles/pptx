@@ -4,6 +4,10 @@ Sample application to showcase manipulation of PowerPoint presentations
 
 ---
 
+## Main Module
+
+Check in folder `prezi/` for script `prezi.py`
+
 ## External Modules
 Modules used in this project
 > pandas  
