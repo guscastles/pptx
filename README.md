@@ -16,7 +16,7 @@ python -m prezi.prezi
 ## External Modules
 Modules used in this project
 > pytest  
-  pytext-cov  
+  pytest-cov  
   python-ppx
   
 ## Tests
